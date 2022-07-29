@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    color: gray;
+    background-image: url(imagens/hike.jpg);
+
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.banner {
+   display: flex;
+   justify-content: space-around;
+   align-items:center;
+   margin-top: 100px;  
+   padding: 15px;
+   background-color: antiquewhite;
+}
+
+header img{
+    border-radius: 48%;
+    border-style: dotted;
+    border: 10px;
+
+}
+
+#selfie{
+    padding-right: 15px;
+}
+
+#titulos{
+    display: flex;
+    flex-direction: column;
+}
+ 
+.conteudo{
+    margin-top: 100px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+ul{
+    line-height: 30px;
+}
+
+.rodape{
+        background-color: antiquewhite;
+        margin-top: 30px;
+        padding: 15px;
+}
+
+#form{
+   margin-top: 50px;  
+   padding: 10px;
+   background-color: antiquewhite;
+}
+
+input{
+    width: 50%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+input[id=mensagem]{
+    height: 150px;
+}
